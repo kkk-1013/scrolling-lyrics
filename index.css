@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: #5f5f5f;
+    text-align: center;/*子元素（行盒）居中*/
+}   
+audio{
+    margin-top: 100px;
+    width: 500px;
+}
+.container{
+    /* border: 2px solid #fff; */
+    height: 500px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.container li{
+    height:30px;
+    line-height: 30px;
+    transition: 0.4s;
+}
+.container ul{
+    /* border: 2px  solid #fff; */
+    /* transform: translateY(-100px); */
+    transition: 0.4s;
+}
+.container li.active{
+    transform: scale(1.4);
+    color: #fff
+}
